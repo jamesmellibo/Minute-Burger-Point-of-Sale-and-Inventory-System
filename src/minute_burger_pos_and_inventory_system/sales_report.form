@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3">
+      <Properties />
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1">
+      <Properties />
+    </SyntheticProperty>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false">
+      <Properties />
+    </SyntheticProperty>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Integer" value="false">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false">
+      <Properties />
+    </AuxValue>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2">
+      <Properties />
+    </AuxValue>
+  </AuxValues>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" />
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelMain">
+      <Properties />
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="Center" />
+      </Constraints>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" />
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelHeader">
+          <Properties />
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="North" />
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout" />
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnBack">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="BACK">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTitle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SALES REPORT">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="36" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnExport">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXPORT CSV">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelCenter">
+          <Properties />
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="Center" />
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" />
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panelFilters">
+              <Properties />
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="North" />
+              </Constraints>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout" />
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblFrom">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="From Date:">
+                      <Properties />
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Properties />
+                      <Font name="Segoe UI" size="20" style="1">
+                        <Properties />
+                      </Font>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="dateFrom">
+                  <Properties />
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblTo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="To Date:">
+                      <Properties />
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Properties />
+                      <Font name="Segoe UI" size="20" style="1">
+                        <Properties />
+                      </Font>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="dateTo">
+                  <Properties />
+                </Component>
+                <Component class="javax.swing.JButton" name="btnGenerate">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="GENERATE REPORT">
+                      <Properties />
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Properties />
+                      <Font name="Segoe UI" size="17" style="1">
+                        <Properties />
+                      </Font>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="scrollSales">
+              <Properties />
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="Center" />
+              </Constraints>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblSales">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Properties />
+                      <Font name="Segoe UI" size="17" style="0">
+                        <Properties />
+                      </Font>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panelRight">
+              <Properties />
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="East" />
+              </Constraints>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" />
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="panelStats">
+                  <Properties />
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="North" />
+                  </Constraints>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout" rows="4" columns="1" />
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblSales">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="TOTAL SALES: ₱ 0.00">
+                          <Properties />
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Properties />
+                          <Font name="Segoe UI" size="20" style="1">
+                            <Properties />
+                          </Font>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblOrders">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="TOTAL ORDERS: 0">
+                          <Properties />
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Properties />
+                          <Font name="Segoe UI" size="20" style="1">
+                            <Properties />
+                          </Font>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblItems">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="ITEMS SOLD: —">
+                          <Properties />
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Properties />
+                          <Font name="Segoe UI" size="20" style="1">
+                            <Properties />
+                          </Font>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblPeriod">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="SELECTED PERIOD: —">
+                          <Properties />
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Properties />
+                          <Font name="Segoe UI" size="20" style="1">
+                            <Properties />
+                          </Font>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="scrollReceipt">
+                  <Properties />
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="Center" />
+                  </Constraints>
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtReceipt">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Properties />
+                          <Font name="Monospaced" size="16" style="0">
+                            <Properties />
+                          </Font>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelFooter">
+          <Properties />
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="South" />
+          </Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout" />
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnView">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="VIEW RECEIPT">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnPrint">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PRINT RECEIPT">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DELETE ORDER">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnNewOrder">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NEW ORDER">
+                  <Properties />
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Properties />
+                  <Font name="Segoe UI" size="17" style="1">
+                    <Properties />
+                  </Font>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

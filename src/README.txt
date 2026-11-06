@@ -1,0 +1,1 @@
+SIGNUP ONLY. Original NetBeans .form preserved. Java adds borderless true fullscreen, bottom Login/Exit toolbar, scrollable form. Do not edit initComponents(). Database registration still validation-only. Backup your files first. Tested javac compilation with existing support class stubs; not tested in NetBeans 30.
